@@ -1,0 +1,53 @@
+body {
+    color: #999;
+}
+
+.add-ticket {
+    float: right;
+    width: 200px;
+}
+
+.edit {
+    background-image: url('../img/edit.svg');
+    background-size: contain;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.delete, .checkmark {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: antiquewhite;
+}
+
+.delete:hover {
+    background-color: antiquewhite;
+}
+
+.add-form-ticket {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+}
+
+.modal {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+}
+
+.spinner-border {
+    display: none;
+}

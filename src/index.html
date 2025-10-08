@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title>HelpDesk</title>
+</head>
+<body>
+  <div class="d-flex flex-column container">
+    <div>
+      <button class="btn btn-light border m-3 add-ticket">Добавить тикет</button>
+    </div>
+  <div class="tickets"></div>
+  </div>
+  <div class="modal bg-light p-3 border rounded-5">
+    <div class="d-flex">
+      Вы действительно хотите удалить тикет?
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+    </div>
+    
+    <div class="d-flex justify-content-around mt-1">
+      <button class="btn btn-light border yes">Да</button>
+      <button class="btn btn-light border no">Нет</button>
+    </div>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
